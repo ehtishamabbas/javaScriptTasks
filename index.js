@@ -30,7 +30,9 @@ for (let i = 1; i <= copyMergedArray.length; i++) {
 
 }
 
-console.log(resultedArray)
+const resultedArrayInString = resultedArray.join("");
+
+console.log(resultedArrayInString)
 
 
 const object1 = {
